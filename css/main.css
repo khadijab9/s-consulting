@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0 !important;
+
+}
+
+body {
+    margin: 0;
+
+}
+
+#navigation {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+
+    /*  margin: 0;
+    margin-left: 0;
+    margin-right: 0; */
+    background-color: white;
+    /* background-color: #708090; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo-site {
+
+    font-family: 'Montagu Slab', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+
+}
+
+#img-logo {
+    height: 65px;
+
+}
+
+.logo-txt {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+
+    list-style: none;
+    margin-right: 50px;
+    margin-bottom: 0;
+    padding-left: 0;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+
+#image-hero {
+    width: 100%;
+    position: relative;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.contenth2 {
+    position: absolute;
+    top: 50%;
+    /* Positionne le texte au centre verticalement */
+    left: 40%;
+    /* Positionne le texte au centre horizontalement */
+    transform: translate(-50%, -40%);
+    /* Centre le texte de manière précise */
+    word-wrap: break-word;
+
+
+
+}
+
+
+.titleh2 {
+    margin-top: 0;
+    font-size: 29px;
+
+}
+
+.paraHero {
+
+    margin-top: 0;
+    font-size: 21px;
+}
+
+/* section prestations */
+.titlePresta {
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 27px;
+    text-decoration: overline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Pour espacer les carrés de manière uniforme */
+    width: 100%;
+
+}
+
+
+.square {
+    width: 50px;
+    /* Largeur des carrés */
+
+    /* Hauteur des carrés */
+    background-color: #34495E;
+    margin: 30px;
+    /* Espacement autour des carrés */
+    flex: 1 1 43%;
+    /* Chaque carré prend 45% de la largeur disponible */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    /* Ombre portée */
+}
+
+.titleh4 {
+    color: white;
+    padding-left: 10px;
+}
+
+.text1 {
+    margin-left: 25px;
+    margin-right: 10px;
+    color: white;
+}
+
+.tache {
+
+    margin-left: 35px;
+    color: white;
+}
+
+/*section pour qui */
+.titlePourqui {
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 27px;
+    text-decoration: overline;
+}
+
+.text2 {
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+.containerGrey {
+    background-color: #d9d9d9;
+    margin-right: 35px;
+    margin-left: 35px;
+
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.squareGrey {}
+
+.textPourqui {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+
+/*  a propos*/
+
+.titleApropos {
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 27px;
+    text-decoration: overline;
+}
+
+.containerApropos {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 80px;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.imagePropos {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.txtApropos {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+/*contact */
+
+#contact {
+    background-color: #34495E;
+}
+
+.titleContact {
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 35px;
+
+    font-size: 27px;
+    text-decoration: overline;
+    color: white;
+}
+
+.textContact {
+    margin-left: 35px;
+    margin-right: 35px;
+    color: white;
+}
+
+
+/* formulaire */
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#wpforms-11-field_1 {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#contact .wpforms-field-label {
+    color: #ffffff !important;
+}
+
+/*media query */
+
+
+
+@media (max-width: 950px) {
+
+
+
+    .containerApropos {
+        flex-wrap: wrap;
+
+    }
+
+    .txtApropos {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .imagePropos {
+        width: 100%;
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 950px) {
+    .titleh2 {
+        font-size: 25px;
+    }
+
+    .paraHero {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 755px) {
+    .titleh2 {
+        font-size: 22px;
+    }
+
+    .paraHero {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 683px) {
+
+    .contenth2 {
+        top: 40%;
+    }
+
+    .titleh2 {
+        font-size: 20px;
+    }
+
+    .paraHero {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 601px) {
+
+    .contenth2 {
+        top: 40%;
+    }
+
+    .titleh2 {
+        font-size: 16px;
+    }
+
+    .paraHero {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 526px) {
+
+    .contenth2 {
+        top: 37%;
+    }
+
+    .titleh2 {
+        font-size: 12px;
+    }
+
+    .paraHero {
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width: 463px) {
+
+    .contenth2 {
+        top: 32%;
+    }
+
+    .titleh2 {
+        font-size: 10px;
+    }
+
+    .paraHero {
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 397px) {
+
+    .contenth2 {
+        top: 26%;
+    }
+
+    .titleh2 {
+        font-size: 8px;
+    }
+
+    .paraHero {
+        font-size: 6px;
+    }
+
+}
