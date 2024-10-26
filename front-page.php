@@ -72,11 +72,16 @@
 
 
 <section id="contact">
-    <h3 class="titleContact"> Me contacter ?</h3>
+    <h3 class="titleContact"> CONTACTEZ MOI </h3>
     <p class="textContact"> Prêt à simplifier vos démarches ou à bénéficier d'un coaching personnalisé ? Contactez-moi dès aujourd'hui pour discuter de vos besoins et obtenir un devis </p>
     <div class="form">
-
-        <?php echo do_shortcode('[wpforms id="11" title="false"]'); ?>
+        <div class="containerCordonnée">
+            <p class="mail"> <i class="fa-solid fa-envelope"></i> ssconsultingcontact@gmail.com</p>
+            <p class="tel"> <i class="fa-solid fa-phone"></i> 0646684799</p>
+        </div>
+        <div class="contForm">
+            <?php echo do_shortcode('[wpforms id="11" title="false"]'); ?>
+        </div>
     </div>
 </section>
 

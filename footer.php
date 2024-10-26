@@ -6,16 +6,12 @@
             'theme_location' => 'footer-menu',
         )); ?>
         <div class="containerFooter">
-            <div class="divContact">
-              
-                <a href="mailto:bidari.khadija@hotmail.fr">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-            </div>
-       
+
+            <p class="textFooter"> S Consulting, © 2024 TOUS DROITS RESERVÉS</p>
+            <p class="design"> Created & Designed By Khadija B.</p>
+
         </div>
-        <p class="textFooter"> S Consulting, © 2024 TOUS DROITS RESERVÉS</p>
-        <p class="textSiret"> N° de siret</p>
+
     </div>
 </footer>
 </div>
